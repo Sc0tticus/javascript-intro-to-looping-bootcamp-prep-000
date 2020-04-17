@@ -52,7 +52,7 @@ let num = 0;
  
 function doWhileLoop(num) {
   num = num + 1;
-  return i;
+  return num;
 }
  
 do {
