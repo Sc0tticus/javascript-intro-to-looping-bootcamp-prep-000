@@ -58,6 +58,7 @@ function doWhileLoop(num) {
 do {
   console.log("I run once regardless.");
 } while (doWhileLoop() < 5);
+
 //  4) loops
 //       doWhileLoop(num)
 //         console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.:
