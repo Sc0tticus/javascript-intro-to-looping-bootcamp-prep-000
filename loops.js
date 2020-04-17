@@ -48,7 +48,9 @@ function whileLoop(n){
 //         console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.:
 //     ReferenceError: doWhileLoop is not defined
 //      at Context.it (test/loops-test.js:59:9)
-
+function doWhileLoop(num){
+  
+}
 //  4) loops
 //       doWhileLoop(num)
 //         console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.:
