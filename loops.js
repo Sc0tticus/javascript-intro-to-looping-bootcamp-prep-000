@@ -31,15 +31,6 @@ function forLoop(array){
   return array
 }
 
-//      2) counts down from n to 0
-//    doWhileLoop(num)
-//      3) console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.
-//      4) console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.
-
-
-//  0 passing (645ms)
-//  4 failing
-
 //  1) loops
 //       forLoop(array)
 //         adds `"I am ${i} strange loop${i === 0 ? '' : 's'}."` to an array 25 times:
