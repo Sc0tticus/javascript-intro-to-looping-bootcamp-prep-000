@@ -31,12 +31,6 @@ function forLoop(array){
   return array
 }
 
-//  1) loops
-//       forLoop(array)
-//         adds `"I am ${i} strange loop${i === 0 ? '' : 's'}."` to an array 25 times:
-//     ReferenceError: forLoop is not defined
-//      at Context.it (test/loops-test.js:32:28)
-
 //  2) loops
 //       whileLoop(n)
 //         counts down from n to 0:
