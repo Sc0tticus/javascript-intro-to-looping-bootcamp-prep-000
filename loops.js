@@ -60,9 +60,3 @@ do {
   console.log("doo-bee-doo-bee-doo");
 } while (incrementVariable() < 5);
  
- 
- 
-//  4) loops
-//       doWhileLoop(num)
-//         console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.:
-//     ReferenceError: doWhileLoop is not defined
