@@ -1,0 +1,64 @@
+/*Adding an Element
+JavaScript allows us to push elements onto the end of an array:
+1.	var superheroines = ["catwoman", "she-hulk", "mystique"];
+2.	 
+3.	superheroines.push("wonder woman");
+4.	// superheroines is now ["catwoman", "she-hulk", "mystique", "wonder woman"] */
+
+
+// loops
+//    forLoop(array)
+//      1) adds `"I am ${i} strange loop${i === 0 ? '' : 's'}."` to an array 25 times
+//    whileLoop(n)
+/*gifts = ["teddy bear", "drone", "doll"];
+
+function wrapGift(gifts){
+    for (let i=0;i<gifts.length; i++){
+        console.log('Wrapped ${gifts[i]} and added bow!');
+    }
+} */
+
+array=["hi","hello"];
+
+function forLoop(array){
+  for (let i=0; i < 25; i++){
+    if (i===1){
+    array.push(`I am 1 strange loop.`)
+    } else if (i != 1) {
+    array.push(`I am ${i} strange loops.`)
+   }
+  }
+  return array
+}
+
+//      2) counts down from n to 0
+//    doWhileLoop(num)
+//      3) console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.
+//      4) console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.
+
+
+//  0 passing (645ms)
+//  4 failing
+
+//  1) loops
+//       forLoop(array)
+//         adds `"I am ${i} strange loop${i === 0 ? '' : 's'}."` to an array 25 times:
+//     ReferenceError: forLoop is not defined
+//      at Context.it (test/loops-test.js:32:28)
+
+//  2) loops
+//       whileLoop(n)
+//         counts down from n to 0:
+//     ReferenceError: whileLoop is not defined
+//      at Context.it (test/loops-test.js:49:7)
+
+//  3) loops
+//       doWhileLoop(num)
+//         console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.:
+//     ReferenceError: doWhileLoop is not defined
+//      at Context.it (test/loops-test.js:59:9)
+
+//  4) loops
+//       doWhileLoop(num)
+//         console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.:
+//     ReferenceError: doWhileLoop is not defined
