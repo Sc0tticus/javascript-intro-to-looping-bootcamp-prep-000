@@ -36,8 +36,10 @@ function forLoop(array){
 //         counts down from n to 0:
 //     ReferenceError: whileLoop is not defined
 //      at Context.it (test/loops-test.js:49:7)
-//function whileLoop(n){
-  
+function whileLoop(n){
+  while (n>0){
+    console.log(--n)
+  }
 }
 
 //  3) loops
